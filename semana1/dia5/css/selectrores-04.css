@@ -1,0 +1,34 @@
+
+/* El nth hace referencia a una posicion */
+li:nth-child(2){
+    color: blue;
+}
+/* Cambia el primer elemento */
+li:first-child{
+  color: red;  
+}
+
+/* Cambiar el ultimo elemento */
+li:last-child{
+    color: salmon;
+}
+
+
+/* odd para pintar impares */
+tbody tr:nth-child(odd){
+    background: purple;
+}
+
+/* evn para pintar impares */
+tbody tr:nth-child(even){
+    background: red;
+}
+
+
+tbody tr:nth-child(1){
+    background: royalblue;
+}
+
+thead{
+    background: seagreen;
+}

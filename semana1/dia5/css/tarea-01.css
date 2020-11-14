@@ -1,0 +1,28 @@
+h1,h2,h3{
+    color: white;
+}
+
+header{
+    background: red;
+}
+
+nav{
+    background: orange;
+}
+
+section{
+    background: yellow;
+}
+
+
+Section > Article{
+background: yellowgreen;
+}
+
+aside{
+    background: blue;
+}
+
+footer{
+    background: blueviolet;
+}

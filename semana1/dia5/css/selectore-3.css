@@ -1,0 +1,34 @@
+header{
+    background: gray;
+}
+
+section{
+    background: lightblue;
+}
+
+h1,h2,h3{
+    color: blue;
+}
+
+.anuncios .textoAnuncio{
+background: chocolate;
+color: white;
+}
+
+.tarjeta{
+    background: cornflowerblue;
+}
+
+.tarjeta > .cuerpo-tarjeta{
+    background: lightpink;
+}
+
+.tarjeta > .cuerpo-tarjeta > h4,p{
+    background: chartreuse;
+}
+
+.tarjeta > .pie-pagina-tarjeta{
+    background: lightsalmon;
+}
+
+

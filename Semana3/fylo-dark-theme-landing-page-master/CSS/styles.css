@@ -1,0 +1,60 @@
+/* Importando otro archivo css para fusionar sus propiedades
+con otras propiedades de este archivo */
+@import url("./variables.css");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./feature.css");
+@import url("./button.css");
+@import url("./tutorial.css");
+@import url("./coments.css");
+@import url("./suscribe.css");
+@import url("./footer.css");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  font-size: 14px;
+}
+body {
+  color: var(--white);
+  background-color: var(--dark-blue-1);
+  font-family: var(--open-sans);
+  background-image: url(../images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center 700px;
+  background-size: 100% 800px;
+}
+
+.container {
+  background-color: var(--dark-blue-2);
+}
+
+@media (max-widht: 720px) {
+  body {
+    padding: 2rem;
+  }
+  .hero__img {
+    width: 80%;
+  }
+  .feature__card {
+    width: 100%;
+  }
+  .comments {
+    flex-direction: column;
+  }
+  .suscibre__form {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .suscibre__input {
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+  .footer__info {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

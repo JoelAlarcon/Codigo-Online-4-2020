@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse</title>
+</head>
+<body>
+    
+<form>
+    <table>
+        <header>
+            <h1>Registrase</h1>
+        </header>
+    
+        <nav>
+            <a href="./iniciarsesion.html">Iniciar Sesion</a>
+            <a href="">Registrarse</a>
+        </nav>
+
+        <tr>
+            <td>
+                <label for="idNombres">Nombres completos</label>
+            </td>
+            <td>
+                <input type="text" placeholder="Ingrese sus nombres" minlength="3" id="idNombres">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="idApellidos">Apellidos</label>
+            </td>
+            <td>
+                <input type="text" placeholder="Ingrese su apellido" minlength="3" id="idApellidos">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="idEdad">Edad</label>
+            </td>
+            <td>
+                <input type="number" name="" id="idEdad" placeholder="Ingrese su Edad" min="0" max="120">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="idFechaNacimiento">Fecha de nacimiento</label>
+            </td>
+            <td>
+                <input type="date" name="" id="idFechaNacimiento">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="IdCorreo">Correo</label>
+            </td>
+            <td>
+                <input type="email" name="" id="IdCorreo" value="@gmail.com" placeholder="Ingrese su email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="idContraseña">Contraseña</label>
+            </td>
+            <td>
+                <input type="password" name="" id="idContraseña" placeholder="Ingrese su contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  
+                title="Necesitas una mayuscula, una minuscula y tu contraseña debe contar con 8 caracteres como minimo">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">sexo</label>
+            </td>
+            <td>
+                <label for="inputRadioM">Masculino</label>
+                <input type="radio" name="genero" id="inputRadioM" checked>
+
+                <label for="inputRadioF">Femenino</label>
+                <input type="radio" name="genero" id="inputRadioF">
+            </td>
+        </tr>
+        <td>
+            <label for="">Idiomas</label>
+        </td>
+        <td>
+            <label for="inputCheckIngles">Ingles</label>
+            <input type="checkbox" name="" id="inputCheckIngles">
+
+            <label for="inputCheckEspañol">Español</label>
+            <input type="checkbox" name="" id="inputCheckEspañol" checked>
+
+            <label for="inputCheckPortugues">Portugues</label>
+            <input type="checkbox" name="" id="inputCheckPortugues">
+        </td>
+        <tr>
+            <td>
+                <label for="slcEstudio">Estudios</label>
+            </td>
+            <td>
+                <select name="" id="slcEstudio">
+                <option value="">Nivel de estudio</option>    
+                <option value="">Bsico</option>
+                <option value="">Intermedio</option>
+                <option value="">Avanzado</option>
+            </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="">Comentarios</label>
+            </td>
+            <td>
+                <textarea name="" id="" cols="30" rows="4"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputFile">Subir archivos</label>
+            </td>
+            <td>
+                <input type="file" name="" id="inputFile">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputColor">Color</label>
+            </td>
+            <td>
+                <input type="color" name="" id="inputColor">
+            </td>
+        </tr>
+
+
+    </table>
+</form>
+
+
+</body>
+</html>
